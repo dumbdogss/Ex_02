@@ -5,10 +5,10 @@ function verificar() {
   var mensagem = document.getElementById("mensagem");
 
   if (palpite < numSecreto) {
-    mensagem.innerHTML = "Muito baixo!";
+    mensagem.innerHTML = "Ta baixo!";
   } else if (palpite > numSecreto) {
-    mensagem.innerHTML = "Muito alto!";
+    mensagem.innerHTML = "Ta alto!";
   } else {
-    mensagem.innerHTML = "Você acertou!";
+    mensagem.innerHTML = "Acertou!";
   }
 }
